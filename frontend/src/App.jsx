@@ -1,12 +1,6 @@
-import FaceExpression from "./components/FaceExpression";
+import FacialExpression from "./components/FacialExpression";
 
-function App() {
-  return (
-    <div>
-      <h1>Facial Expression Detector</h1>
-      <FaceExpression />
-    </div>
-  );
+
+export default function App() {
+  return <FacialExpression />;
 }
-
-export default App;
